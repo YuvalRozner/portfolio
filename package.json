@@ -1,5 +1,13 @@
 {
   "dependencies": {
     "style-components": "^0.1.0"
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "https://yuvalrozner.github.io/Portfolio/my-app"
 }
