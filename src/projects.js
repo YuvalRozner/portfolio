@@ -11,13 +11,13 @@ const Projects = () => {
     {
       title: 'Icook',
       description: 'Interactive Cooking Website. JavaFX GUI.',
-      link: '/images/Icook_logo.png'
+      link: 'https://github.com/YuvalRozner/Icook',
+      image: '/images/Icook_logo.png'
     },
     {
       title: 'Cryptology-Project',
       description: 'Secure Payment with Server Identification Using Schnorr Signature, SM4, and ECDH.',
       link: 'https://github.com/DorShabat/Cryptology-Project',
-      image: 'https://example.com/cryptology-project.png'
     },
     {
       title: 'Math_Expression_Parser',
@@ -33,7 +33,6 @@ const Projects = () => {
       title: 'CEMS - Exams management system',
       description: 'Computerized Examination Management System.',
       link: 'https://github.com/YuvalRozner/CEMS',
-      image: 'https://example.com/cems.png'
     },
     {
       title: 'Minesweeper',
