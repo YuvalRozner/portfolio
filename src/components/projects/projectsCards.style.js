@@ -21,6 +21,7 @@ export const MiniProjectList = styled.ul`
   list-style: none;
   padding: 0;
   margin: 0;
+  flex-wrap: wrap; /* Ensure items wrap to the next line on smaller screens */
 `;
 
 export const MiniProjectItem = styled.li`
@@ -32,6 +33,7 @@ export const MiniProjectItem = styled.li`
   flex: 1;
   text-align: center;
   transition: transform 0.2s;
+  min-width: 150px; /* Ensure a minimum width for each item */
   
   &:hover {
     transform: scale(1.05);
