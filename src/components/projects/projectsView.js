@@ -2,13 +2,14 @@ import React from 'react';
 import ProjectsList from './projectsList';
 import ProjectCards from './projectsCards';
 import * as Style from './projectsView.style';
+import * as TextContent from '../../data/contentData';
 
 const ProjectsView = ({ viewMode, toggleViewMode }) => (
   <Style.Container id="projects-view">
-    <Style.Title>Projects</Style.Title>
+    <Style.Title>{TextContent.PROJECTS_TITLE}</Style.Title>
     <Style.DescriptionContainer>
       <Style.Description>
-        Here are some notable projects (repositories) on my GitHub. Some are personal projects, while others are collaborative efforts where I contributed as part of a team. Check them out to see my skills in action!
+        {TextContent.PROJECTS_DESCRIPTION}
       </Style.Description>
       <Style.ToggleButton onClick={toggleViewMode}>
         Switch to {viewMode === 'cards' ? 'List' : 'Cards'} View

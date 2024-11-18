@@ -21,15 +21,15 @@ function TopBar() {
 
   return (
     <Style.TopBarContainer>
-      <Style.Logo>
+      <Style.Logo title="Yuval Rozner's Portfolio" onClick={(e) => handleNavigationClick(e, 'head')}>
         Yuval Rozner
       </Style.Logo>
       <Style.Navigation>
-        <Style.NavLink href="#about-me" onClick={(e) => handleNavigationClick(e, 'about-me')}>About Me</Style.NavLink>
-        <Style.NavLink href="#projects" onClick={(e) => handleNavigationClick(e, 'projects-view')}>Projects</Style.NavLink>
-        <Style.NavLink href="#contact" onClick={(e) => handleNavigationClick(e, 'contact')}>Contact</Style.NavLink>
-        <Style.NavLink href={contactData.cv} download>Download CV</Style.NavLink>
-        <Style.NavLink href={contactData.linkedin} target="_blank" rel="noopener noreferrer">
+        <Style.NavLink href="#about-me" onClick={(e) => handleNavigationClick(e, 'about-me')} title="Go to About Me section">About Me</Style.NavLink>
+        <Style.NavLink href="#projects" onClick={(e) => handleNavigationClick(e, 'projects-view')} title="Go to Projects section">Projects</Style.NavLink>
+        <Style.NavLink href="#contact" onClick={(e) => handleNavigationClick(e, 'contact')} title="Go to Contact section">Contact</Style.NavLink>
+        <Style.NavLink href={contactData.cv} download title="Download my CV">Download CV</Style.NavLink>
+        <Style.NavLink href={contactData.linkedin} target="_blank" rel="noopener noreferrer" title="Visit my LinkedIn profile">
           <FaLinkedin aria-label="LinkedIn" /> LinkedIn
         </Style.NavLink>
       </Style.Navigation>
