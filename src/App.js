@@ -1,10 +1,10 @@
 import React from 'react';
-import TopBar from './components/topBar';
-import Footer from './components/footer';
-import ProjectsList from './components/projectsList';
-import Header from './components/header';
-import About from './components/about';
-import Contact from './components/contact';
+import TopBar from './components/headerAndFooter/topBar';
+import Footer from './components/headerAndFooter/footer';
+import ProjectsList from './components/projects/projectsList';
+import Header from './components/headerAndFooter/header';
+import About from './components/about/about';
+import Contact from './components/contact/contact';
 
 function App() {
   return (
