@@ -1,11 +1,10 @@
 import React from 'react';
-import './App.css';
-import TopBar from './topBar';
-import Footer from './footer';
-import Projects from './projects';
-import Header from './header';
-import About from './about';
-import Contact from './contact';
+import TopBar from './components/topBar';
+import Footer from './components/footer';
+import ProjectsList from './components/projectsList';
+import Header from './components/header';
+import About from './components/about';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
       <TopBar />
       <Header />
       <About />
-      <Projects />
+      <ProjectsList />
       <Contact />
       <Footer />
     </div>

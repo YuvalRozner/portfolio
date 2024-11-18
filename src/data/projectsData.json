@@ -1,0 +1,39 @@
+[
+  {
+    "title": "WeatherNet",
+    "description": "Weather Forecasting Using Machine Learning.",
+    "link": "https://github.com/YuvalRozner/WeatherNet",
+    "image": "/images/WeatherNet_logo.png"
+  },
+  {
+    "title": "Icook",
+    "description": "Interactive Cooking Website. JavaFX GUI.",
+    "link": "https://github.com/YuvalRozner/Icook",
+    "image": "/images/Icook_logo.png"
+  },
+  {
+    "title": "Cryptology-Project",
+    "description": "Secure Payment with Server Identification Using Schnorr Signature, SM4, and ECDH.",
+    "link": "https://github.com/DorShabat/Cryptology-Project"
+  },
+  {
+    "title": "Math_Expression_Parser",
+    "description": "Mathematical Expression Evaluation and Differentiation Using LR Parser.",
+    "link": "https://github.com/DorShabat/Math_Expression_Parser"
+  },
+  {
+    "title": "Adaptive_Huffman",
+    "description": "Python implementation of Adaptive Huffman Compression Algorithm.",
+    "link": "https://github.com/YuvalRozner/Adaptive_Huffman"
+  },
+  {
+    "title": "CEMS - Exams management system",
+    "description": "Computerized Examination Management System.",
+    "link": "https://github.com/YuvalRozner/CEMS"
+  },
+  {
+    "title": "Minesweeper",
+    "description": "Java Minesweeper game.",
+    "link": "https://github.com/YuvalRozner/Minesweeper"
+  }
+]
