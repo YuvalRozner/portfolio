@@ -16,11 +16,24 @@ const ProjectCards = () => {
 
   return (
     <Style.Section>
-      <Style.FocusedProjectCard>
-        <Style.ProjectImage src={projects[focusedProjectIndex].image} alt={projects[focusedProjectIndex].title} />
-        <Style.ProjectTitle>{projects[focusedProjectIndex].title}</Style.ProjectTitle>
-        <Style.ProjectDescription>{projects[focusedProjectIndex].description}</Style.ProjectDescription>
-        <Style.ProjectLink href={projects[focusedProjectIndex].link} target="_blank" rel="noopener noreferrer">
+      <Style.FocusedProjectCard style={{ textAlign: 'center', padding: '30px', border: '2px solid #ddd' }}>
+        <Style.ProjectImage 
+          src={projects[focusedProjectIndex].image} 
+          alt={projects[focusedProjectIndex].title} 
+          style={{ maxWidth: '200px', maxHeight: '200px', margin: '0 auto' }}
+        />
+        <Style.ProjectTitle style={{ fontSize: '1.5em', fontWeight: 'bold' }}>
+          {projects[focusedProjectIndex].title}
+        </Style.ProjectTitle>
+        <Style.ProjectDescription style={{ fontSize: '1.1em', margin: '10px 0' }}>
+          {projects[focusedProjectIndex].description}
+        </Style.ProjectDescription>
+        <Style.ProjectLink 
+          href={projects[focusedProjectIndex].link} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          style={{ display: 'inline-block', marginTop: '10px', padding: '10px 20px', backgroundColor: '#61dafb', color: '#fff', borderRadius: '5px' }}
+        >
           View Project
         </Style.ProjectLink>
       </Style.FocusedProjectCard>
