@@ -19,12 +19,14 @@
   {
     "title": "Math_Expression_Parser",
     "description": "Mathematical Expression Evaluation and Differentiation Using LR Parser.",
-    "link": "https://github.com/DorShabat/Math_Expression_Parser"
+    "link": "https://github.com/DorShabat/Math_Expression_Parser",
+    "image": "/images/Math_Expression_Parser_logo.png"
   },
   {
     "title": "Adaptive_Huffman",
     "description": "Python implementation of Adaptive Huffman Compression Algorithm.",
-    "link": "https://github.com/YuvalRozner/Adaptive_Huffman"
+    "link": "https://github.com/YuvalRozner/Adaptive_Huffman",
+    "image": "/images/Adaptive_Huffman_logo.png"
   },
   {
     "title": "CEMS - Exams management system",
@@ -34,6 +36,7 @@
   {
     "title": "Minesweeper",
     "description": "Java Minesweeper game.",
-    "link": "https://github.com/YuvalRozner/Minesweeper"
+    "link": "https://github.com/YuvalRozner/Minesweeper",
+    "image": "/images/Minesweeper_logo.png"
   }
 ]
