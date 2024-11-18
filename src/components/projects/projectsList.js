@@ -8,10 +8,6 @@ const ProjectsList = () => {
 
   return (
     <Style.Section>
-      <Style.Title>Projects</Style.Title>
-      <Style.Description>
-        Here are some notable projects (repositories) on my GitHub. Some are personal projects, while others are collaborative efforts where I contributed as part of a team. Check them out to see my skills in action!
-      </Style.Description>
       <Style.ProjectList>
         {projectList.map((project, index) => (
           <Style.ProjectItem key={index}>

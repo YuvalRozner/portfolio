@@ -3,7 +3,7 @@ import * as Style from './about.style';
 
 const About = () => {
   return (
-    <Style.AboutSection className="about-me">
+    <Style.AboutSection className="about-me" id="about-me">
       <Style.AboutTitle>About Me</Style.AboutTitle>
       <Style.AboutParagraph>
         I'm a motivated <strong>Software Engineering student</strong> in my final semester at Braude College of Engineering. With a strong foundation in programming, problem-solving, and teamwork, I'm eager to contribute to innovative projects and further develop my skills in real-world applications.

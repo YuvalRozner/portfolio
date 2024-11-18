@@ -15,7 +15,7 @@ const ProjectCards = () => {
   };
 
   return (
-    <Style.Section>
+    <Style.Section id="projects-cards">
       <Style.FocusedProjectCard style={{ textAlign: 'center', padding: '30px', border: '2px solid #ddd' }}>
         <Style.ProjectImage 
           src={projects[focusedProjectIndex].image} 

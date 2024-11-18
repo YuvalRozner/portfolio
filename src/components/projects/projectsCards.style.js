@@ -1,69 +1,80 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 `;
 
 export const FocusedProjectCard = styled.div`
-  margin-bottom: 20px;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
 `;
 
 export const MiniProjectList = styled.ul`
   display: flex;
-  gap: 10px;
+  gap: 15px;
   list-style: none;
   padding: 0;
   margin: 0;
-  flex-wrap: wrap; /* Ensure items wrap to the next line on smaller screens */
+  flex-wrap: wrap;
 `;
 
 export const MiniProjectItem = styled.li`
   cursor: pointer;
-  padding: 10px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
   flex: 1;
   text-align: center;
-  transition: transform 0.2s;
-  min-width: 150px; /* Ensure a minimum width for each item */
-  
+  transition: transform 0.3s, box-shadow 0.3s;
+  min-width: 160px;
+
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
   }
 `;
 
 export const ProjectImage = styled.img`
   width: 100%;
   height: auto;
-  border-radius: 5px;
-  max-width: 150px; /* Limit the size of the images */
-  max-height: 150px; /* Limit the size of the images */
+  border-radius: 8px;
+  max-width: 160px;
+  max-height: 160px;
 `;
 
 export const ProjectTitle = styled.h3`
-  margin: 10px 0;
-  color: #333;
+  margin: 12px 0;
+  color: #222;
+  font-weight: 600;
 `;
 
 export const ProjectDescription = styled.p`
-  color: #666;
-  margin: 0;
+  color: #555;
+  margin: 5px 0;
+  line-height: 1.5;
 `;
 
 export const ProjectLink = styled.a`
   color: #61dafb;
   text-decoration: none;
   font-weight: bold;
-  
+  transition: color 0.3s;
+
   &:hover {
     text-decoration: underline;
+    color: #1e90ff;
   }
 `;

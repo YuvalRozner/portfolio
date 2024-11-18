@@ -24,7 +24,7 @@ export const ContactListItem = styled.li`
 `;
 
 export const ContactLink = styled.a`
-  color: #61dafb;
+  color: #4a9ecf;
   text-decoration: none;
   font-weight: bold;
 `;
