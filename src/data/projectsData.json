@@ -14,7 +14,8 @@
   {
     "title": "Cryptology-Project",
     "description": "Secure Payment with Server Identification Using Schnorr Signature, SM4, and ECDH.",
-    "link": "https://github.com/DorShabat/Cryptology-Project"
+    "link": "https://github.com/DorShabat/Cryptology-Project",
+    "image": "/images/Cryptology-Project_logo.png"
   },
   {
     "title": "Math_Expression_Parser",
@@ -31,7 +32,8 @@
   {
     "title": "CEMS - Exams management system",
     "description": "Computerized Examination Management System.",
-    "link": "https://github.com/YuvalRozner/CEMS"
+    "link": "https://github.com/YuvalRozner/CEMS",
+    "image": "/images/CEMS_logo.png"
   },
   {
     "title": "Minesweeper",
